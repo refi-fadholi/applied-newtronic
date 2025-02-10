@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "7055e35a-98e0-40a0-a08b-da16bfcf14fa",
+		"name": "crawling-dki_banten",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41722043"
+	},
+	"item": [
+		{
+			"name": "http://localhost/newtronic-2-crawling/public/crawl-exchange-rates",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/newtronic-2-crawling/public/crawl-exchange-rates",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"newtronic-2-crawling",
+						"public",
+						"crawl-exchange-rates"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/newtronic-2-crawling/public/crawl-exchange-rates",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/newtronic-2-crawling/public/crawl-exchange-rates",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"newtronic-2-crawling",
+								"public",
+								"crawl-exchange-rates"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 09 Feb 2025 04:29:54 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.12"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6InRiZllUdVFKYU44YnplK20wMVRUTmc9PSIsInZhbHVlIjoiVmZ1NnM5RVQ2ODJOL3BEMG5LVk92MEE1YXFWN1M1dlJOMWluRUgvUWg2dHJneC9IQlZreWh2bGF2RU03TGxMVkZDYVNuTFd5SWxFM3E1Y0o2dTJ4aWVyK3BKSXNRTmJnY09idXBBaFRaZHVBeEhoWmI1cnlzbTZrQmhhQmxNWWkiLCJtYWMiOiI0OTdlZTVkMTlmMGNiZGMxMTNlMDZiN2VlOGVlNTZjMDgxOWM3ZjRhZDI2N2RiMmFmZmJkNGVkMWM0MDU0OWQzIiwidGFnIjoiIn0%3D; expires=Sun, 09 Feb 2025 06:30:00 GMT; Max-Age=7200; path=/; samesite=lax"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6Ik5aN3RPTmxBcklOZjMweHNRZm54d2c9PSIsInZhbHVlIjoidHVGcTI5ZEFyM1IyQXdmYjVCa245aXJyN0pQb0JuWU50em1DVEhaNlU4citJeE9SUVg0dUc2NktmZzlteEIySStpekRkU2pnejhHaVRtS1NIbEFLdUxGdkhWbHd5ZDd6azUxQlJBQ0VxRGJibE5mT3JuZW54L0FsdE04TmVjcDkiLCJtYWMiOiI2OWQzNzRlOWY5ZTYwNTI3ZjlkOGQyZWExZmRkNjdlM2YwYTM3NTZjOWJjMjczODdiNTViNjZlMmNiZTM0ZjIzIiwidGFnIjoiIn0%3D; expires=Sun, 09 Feb 2025 06:30:00 GMT; Max-Age=7200; path=/; httponly; samesite=lax"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"currency\": \"Currency\",\n        \"buy_rate\": \"Denomination\",\n        \"sell_rate\": \"Buying Rate*Customer sell to Smartdeal\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 2,\n        \"currency\": \"USD\",\n        \"buy_rate\": \"100-50\",\n        \"sell_rate\": \"16.250,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 3,\n        \"currency\": \"\",\n        \"buy_rate\": \"20-5\",\n        \"sell_rate\": \"16.130,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 4,\n        \"currency\": \"EUR\",\n        \"buy_rate\": \"500-50\",\n        \"sell_rate\": \"16.885,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 5,\n        \"currency\": \"AUD\",\n        \"buy_rate\": \"100-50\",\n        \"sell_rate\": \"10.205,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 6,\n        \"currency\": \"NZD\",\n        \"buy_rate\": \"100-50\",\n        \"sell_rate\": \"9.175,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 7,\n        \"currency\": \"CAD\",\n        \"buy_rate\": \"100-50\",\n        \"sell_rate\": \"11.295,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 8,\n        \"currency\": \"CHF\",\n        \"buy_rate\": \"1.000-100\",\n        \"sell_rate\": \"17.940,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 9,\n        \"currency\": \"GBP\",\n        \"buy_rate\": \"50-20\",\n        \"sell_rate\": \"20.200,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 10,\n        \"currency\": \"JPY\",\n        \"buy_rate\": \"\",\n        \"sell_rate\": \"106,50\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 11,\n        \"currency\": \"SGD\",\n        \"buy_rate\": 100,\n        \"sell_rate\": \"12.050,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 12,\n        \"currency\": \"\",\n        \"buy_rate\": 50,\n        \"sell_rate\": \"12.030,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 13,\n        \"currency\": \"BND\",\n        \"buy_rate\": \"1.000-50\",\n        \"sell_rate\": \"12.030,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 14,\n        \"currency\": \"MYR\",\n        \"buy_rate\": \"100-50\",\n        \"sell_rate\": \"3.660,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 15,\n        \"currency\": \"THB\",\n        \"buy_rate\": \"\",\n        \"sell_rate\": \"480,75\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 16,\n        \"currency\": \"HKD\",\n        \"buy_rate\": \"1.000-500\",\n        \"sell_rate\": \"2.092,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 17,\n        \"currency\": \"CNY\",\n        \"buy_rate\": 100,\n        \"sell_rate\": \"2.226,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 18,\n        \"currency\": \"\",\n        \"buy_rate\": \"50-5\",\n        \"sell_rate\": \"2.026,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 19,\n        \"currency\": \"TWD\",\n        \"buy_rate\": \"2.000-500\",\n        \"sell_rate\": \"484,25\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 20,\n        \"currency\": \"KRW\",\n        \"buy_rate\": \"\",\n        \"sell_rate\": \"11,13\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 21,\n        \"currency\": \"PHP\",\n        \"buy_rate\": \"1.000-500\",\n        \"sell_rate\": \"270,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 22,\n        \"currency\": \"INR\",\n        \"buy_rate\": 500,\n        \"sell_rate\": \"181,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 23,\n        \"currency\": \"VND\",\n        \"buy_rate\": \"500.000-100.000\",\n        \"sell_rate\": \"0,60\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 24,\n        \"currency\": \"SAR\",\n        \"buy_rate\": 500,\n        \"sell_rate\": \"4.309,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 25,\n        \"currency\": \"\",\n        \"buy_rate\": 100,\n        \"sell_rate\": \"4.309,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 26,\n        \"currency\": \"\",\n        \"buy_rate\": 50,\n        \"sell_rate\": \"4.309,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 27,\n        \"currency\": \"\",\n        \"buy_rate\": 10,\n        \"sell_rate\": \"4.309,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 28,\n        \"currency\": \"\",\n        \"buy_rate\": 5,\n        \"sell_rate\": \"4.309,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 29,\n        \"currency\": \"AED\",\n        \"buy_rate\": 1,\n        \"sell_rate\": \"4.406,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 30,\n        \"currency\": \"QAR\",\n        \"buy_rate\": \"500-50\",\n        \"sell_rate\": \"4.365,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 31,\n        \"currency\": \"BHD\",\n        \"buy_rate\": \"20-5\",\n        \"sell_rate\": \"42.350,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 32,\n        \"currency\": \"OMR\",\n        \"buy_rate\": \"50-5\",\n        \"sell_rate\": \"41.475,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 33,\n        \"currency\": \"KWD\",\n        \"buy_rate\": \"20-5\",\n        \"sell_rate\": \"51.800,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 34,\n        \"currency\": \"JOD\",\n        \"buy_rate\": \"50-10\",\n        \"sell_rate\": \"22.150,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 35,\n        \"currency\": \"TRY\",\n        \"buy_rate\": \"200-100\",\n        \"sell_rate\": \"440,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 36,\n        \"currency\": \"IQD\",\n        \"buy_rate\": \"\",\n        \"sell_rate\": \"8,50\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 37,\n        \"currency\": \"SEK\",\n        \"buy_rate\": \"\",\n        \"sell_rate\": \"1.335,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 38,\n        \"currency\": \"NOK\",\n        \"buy_rate\": \"\",\n        \"sell_rate\": \"1.315,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 39,\n        \"currency\": \"DKK\",\n        \"buy_rate\": \"\",\n        \"sell_rate\": \"2.085,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 40,\n        \"currency\": \"RUB\",\n        \"buy_rate\": \"\",\n        \"sell_rate\": \"128,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 41,\n        \"currency\": \"ZAR\",\n        \"buy_rate\": \"\",\n        \"sell_rate\": \"820,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 42,\n        \"currency\": \"MOP\",\n        \"buy_rate\": \"\",\n        \"sell_rate\": \"2.030,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    },\n    {\n        \"id\": 43,\n        \"currency\": \"KHR\",\n        \"buy_rate\": \"\",\n        \"sell_rate\": \"2,00\",\n        \"created_at\": \"2025-02-09T04:29:59.000000Z\",\n        \"updated_at\": \"2025-02-09T04:29:59.000000Z\"\n    }\n]"
+				}
+			]
+		}
+	]
+}
