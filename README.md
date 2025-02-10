@@ -61,3 +61,5 @@
 7. Logging dapat dilihat di tabel score_logs, untuk caranya sama seperti pada nomor 2
 
 Jika ada yang belum dipahami, dapat menghubungi saya via email: refi.fadholi.04@gmail.com atau via WhatsApp
+
+<h5>Terima kasih</h5>
