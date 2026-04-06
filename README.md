@@ -1,4 +1,4 @@
-# applied-newtronic
+## Soal Lamaran Newtronic - CRUD User, Produk, dan Transaksi, Web Crawling dan Scoreboard
 
 # Tools yang digunakan:
 - PHP v8.4.3 (termasuk di XAMPP)
